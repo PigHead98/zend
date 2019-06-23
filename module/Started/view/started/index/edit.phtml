@@ -1,0 +1,12 @@
+<?php 
+use Zend\Form\Element;
+use Zend\Form\Form;
+
+$username->setLabel('Username');
+$username->setAttributes([
+    'class' => 'username',
+    'size'  => '30',
+]);
+   	$this->headTitle('editPage');
+	echo $this->escapeHtml($action).' : action <br> Id : '.$this->id.' <br> ';
+?>
